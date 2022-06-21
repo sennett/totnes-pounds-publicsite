@@ -34,7 +34,7 @@ const Index = () => (
           </p>
           <p className="mt-4 text-gray-600">(This is a very early project at the idea stage.  Nothing is built yet.)</p>
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 mt-4">
           <img src={heroImage} alt="Logo" />
         </div>
       </div>
@@ -168,6 +168,7 @@ const Index = () => (
     </section>
 
     <SplitSection
+      id="get-involved"
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
@@ -183,8 +184,9 @@ const Index = () => (
             <li>developers</li>
             <li>merchants</li>
             <li>customers</li>
+            <li>enthusiastic people</li>
           </ul>
-          <p className="mt-8 text-xl font-light leading-relaxed">We will also provide news and updates via a mailing list.</p>
+          <p className="mt-8 text-xl font-light leading-relaxed">We will also provide news and updates via a mailing list.  If any of this sounds like you, please click one of these buttons.</p>
         </div>
       }
       secondarySlot={
