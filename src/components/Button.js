@@ -6,8 +6,17 @@ const sizes = {
   xl: `py-5 px-16 text-lg`
 };
 
-const Button = ({ children, className = '', size }) => {
-  return (
+const Button = ({ children, className = '', size, href = null }) => {
+
+  return href ? (<a href={href} className={`
+  ${sizes[size] || sizes.default}
+  ${className}
+  bg-primary
+  hover:bg-primary-darker
+  rounded
+  text-white
+  hover:text-white
+`}>{children}</a>) : (
     <button
       type="button"
       className={`

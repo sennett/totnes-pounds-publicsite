@@ -30,7 +30,7 @@ const Index = () => (
             A digital currency for community growth
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Learn More</Button>
+            <Button size="lg" href='#learn-more'>Learn More</Button>
           </p>
           <p className="mt-4 text-gray-600">(This is a very early project at the idea stage.  Nothing is built yet.)</p>
         </div>
@@ -40,7 +40,7 @@ const Index = () => (
       </div>
     </section>
     <SplitSection
-      id="services"
+      id="learn-more"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">A Local Currency</h3>

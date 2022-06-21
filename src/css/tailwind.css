@@ -7,6 +7,10 @@ a:hover {
   @apply text-primary-darker;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind components;
 
 @tailwind utilities;
