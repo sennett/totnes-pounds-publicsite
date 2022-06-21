@@ -11,7 +11,7 @@ const Button = ({ children, className = '', size, href = null }) => {
   return href ? (<a href={href} className={`
   ${sizes[size] || sizes.default}
   ${className}
-  bg-primary
+  bg-primary-default
   hover:bg-primary-darker
   rounded
   text-white
@@ -22,7 +22,7 @@ const Button = ({ children, className = '', size, href = null }) => {
       className={`
         ${sizes[size] || sizes.default}
         ${className}
-        bg-primary
+        bg-primary-default
         hover:bg-primary-darker
         rounded
         text-white

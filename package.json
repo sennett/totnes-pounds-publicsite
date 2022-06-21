@@ -12,13 +12,22 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "autoprefixer": "^10.4.7",
     "gatsby": "^4.0.0",
     "gatsby-plugin-emotion": "^7.0.0",
+    "gatsby-plugin-postcss": "^5.17.0",
+    "gatsby-plugin-purgecss": "^6.1.2",
+    "gatsby-plugin-react-helmet": "^5.17.0",
     "gatsby-theme-codebushi": "^1.0.0",
     "postcss": "^8.3.8",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^3.1.4"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
