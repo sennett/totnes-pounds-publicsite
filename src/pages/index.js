@@ -34,7 +34,7 @@ const Index = () => (
           </p>
           <p className="mt-4 text-gray-600">(This is a very early project at the idea stage.  Nothing is built yet.)</p>
         </div>
-        <div className="lg:w-1/2 mt-4">
+        <div className="lg:w-1/2 mt-4 lg:mt-0">
           <img src={heroImage} alt="Logo" />
         </div>
       </div>
