@@ -6,7 +6,7 @@ const sizes = {
   xl: `py-5 px-16 text-lg`
 };
 
-const Button = ({ children, className = '', size, href = null }) => {
+const Button = ({ children, className = '', size, href = null, click = () => { } }) => {
 
   return href ? (<a href={href} className={`
   ${sizes[size] || sizes.default}
@@ -27,6 +27,7 @@ const Button = ({ children, className = '', size, href = null }) => {
         rounded
         text-white
     `}
+      onClick={click}
     >
       {children}
     </button>

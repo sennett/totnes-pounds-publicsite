@@ -17,6 +17,7 @@ import stepOneImage from '../img/step one.png'
 import stepTwoImage from '../img/step two.png'
 import stepThreeImage from '../img/step three.png'
 import getInTouchImage from '../img/get in touch.png'
+import { Simulate } from '../components/Simluate';
 
 const Index = () => (
   <Layout>
@@ -29,10 +30,10 @@ const Index = () => (
           <p className="text-xl lg:text-2xl mt-6 font-light">
             A digital currency for community growth
           </p>
-          <p className="mt-8 md:mt-12">
+          <p className="mt-8 mb-8 md:mt-12">
             <Button size="lg" href='#learn-more'>Learn More</Button>
           </p>
-          <p className="mt-4 text-gray-600">(This is a very early project at the idea stage.  Nothing is built yet.)</p>
+          <p className="mt-4 text-gray-600">(This is a very early project.  Nothing is built yet.)</p>
         </div>
         <div className="lg:w-1/2 mt-4 lg:mt-0">
           <img src={heroImage} alt="Logo" />
@@ -49,13 +50,8 @@ const Index = () => (
             Totnes Pound is an alternative payment method for goods and services.  Instead of paying using a debit/credit card or cash, a smart phone app is used.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-
-
             It keeps money in the local economy, creates a central fund with potential for investment, and provides a vehicle for lower transaction fees meaning cheaper prices for all.
           </p>
-
-
-
         </div>
       }
       secondarySlot={<img src={heroImage} alt="Logo" />}
@@ -105,7 +101,7 @@ const Index = () => (
           <p className="mt-8 text-xl font-light leading-relaxed">
             Instead of transaction fees leaving the local economy, these fees can instead be retained by the community and spent on community initiatives:
           </p>
-          <ul class="mt-8 text-xl font-light leading-relaxed list-disc ml-8">
+          <ul className="mt-8 text-xl font-light leading-relaxed list-disc ml-8">
             <li>investment in local community projects, like energy and food production</li>
             <li>investment in classical investment accounts, like stocks &amp; shares, Vanguard etc</li>
             <li>dividend payments back to the community</li>
@@ -113,6 +109,26 @@ const Index = () => (
         </div>
       }
       secondarySlot={<img src={feesToFundImage} alt="Logo" />}
+    />
+
+
+
+    <SplitSection
+      primarySlot={
+        <div className="lg:pr-32 xl:pr-48">
+          <h3 className="text-3xl font-semibold leading-tight">Simulate the benefits</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            One of the ways Totnes Pound keeps money in the local economy is cheaper transaction fees.
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Use the sliders to simulate how much could be saved.
+          </p>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            The big savings value is correctly calculated based on the input values, but the input values might be wildly unrealistic.  If you know more, pleae get in touch.
+          </p>
+        </div>
+      }
+      secondarySlot={<Simulate />}
     />
 
 
@@ -178,7 +194,7 @@ const Index = () => (
           <p className="mt-8 text-xl font-light leading-relaxed">
             This is a very early stage community project, and we're looking for people to get involved.
           </p>
-          <ul class="mt-8 text-xl font-light leading-relaxed list-disc ml-8 mb-8">
+          <ul className="mt-8 text-xl font-light leading-relaxed list-disc ml-8 mb-8">
             <li>designers</li>
             <li>economists</li>
             <li>developers</li>
@@ -186,18 +202,18 @@ const Index = () => (
             <li>customers</li>
             <li>enthusiastic people</li>
           </ul>
-          <p className="mt-8 text-xl font-light leading-relaxed">We will also provide news and updates via a mailing list.  If any of this sounds like you, please click one of these buttons.</p>
+          <p className="mt-8 text-xl font-light leading-relaxed">We will also provide news and updates via a mailing list.  If any of this sounds like you, please click the button.</p>
         </div>
       }
       secondarySlot={
         <div className="text-center">
-          <Button size="lg">Get in Touch</Button> <br /><br />
-          <Button size="lg">Join the mailing list</Button>
+          <Button size="lg" href="https://sennett.typeform.com/to/Fp6PvcRe">Get in Touch</Button> <br /><br />
+          {/* <Button size="lg">Join the mailing list</Button> */}
         </div>
       }
     />
 
-    <section id="stats" className="py-20 lg:pt-32">
+    {/* <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -233,7 +249,7 @@ const Index = () => (
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
       </p>
-    </section>
+    </section> */}
   </Layout>
 );
 

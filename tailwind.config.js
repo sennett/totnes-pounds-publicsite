@@ -11,6 +11,10 @@ module.exports = {
       }
     }
   },
+  // corePlugins: {
+  //   preflight: false
+  // },
+  // important: '#___gatsby',
   variants: {},
   plugins: []
 };
