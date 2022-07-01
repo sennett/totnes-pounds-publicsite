@@ -3,6 +3,7 @@ const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
+  pathPrefix: "/totnes-pounds-publicsite",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-emotion`,
