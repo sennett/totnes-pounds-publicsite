@@ -124,7 +124,7 @@ const Index = () => (
             Use the sliders to simulate how much could be saved.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            The big savings value is correctly calculated based on the input values, but the input values might be wildly unrealistic.  If you know more, pleae get in touch.
+            The big savings value is correctly calculated based on the input values, but the input values might be wildly unrealistic.  If you know more, please get in touch.
           </p>
         </div>
       }
