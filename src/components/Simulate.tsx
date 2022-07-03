@@ -45,7 +45,7 @@ export function Simulate() {
         onChange={(event, newValue) => setTxnPerDay(newValue as number)}
       />
       <p className="mb-8 text font-light leading-relaxed">
-        Average amount transacted on highstreet per day
+        Average amount transacted on high street per day
       </p>
 
       <Slider

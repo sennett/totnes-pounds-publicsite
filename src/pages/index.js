@@ -17,7 +17,7 @@ import stepOneImage from '../img/step one.png'
 import stepTwoImage from '../img/step two.png'
 import stepThreeImage from '../img/step three.png'
 import getInTouchImage from '../img/get in touch.png'
-import { Simulate } from '../components/Simluate';
+import { Simulate } from '../components/Simulate';
 
 const Index = () => (
   <Layout>
@@ -50,7 +50,7 @@ const Index = () => (
             Totnes Pound is an alternative payment method for goods and services.  Instead of paying using a debit/credit card or cash, a smart phone app is used.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            It keeps money in the local economy, creates a central fund with potential for investment, and provides a vehicle for lower transaction fees meaning cheaper prices for all.
+            It keeps money circulating in the local economy, creates a central fund with potential for investment, and provides a vehicle for lower transaction fees meaning cheaper prices for all.
           </p>
         </div>
       }
