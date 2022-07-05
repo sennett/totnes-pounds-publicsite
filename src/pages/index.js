@@ -50,7 +50,7 @@ const Index = () => (
             Totnes Pound is an alternative payment method for goods and services.  Instead of paying using a debit/credit card or cash, a smart phone app is used.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            It keeps money circulating in the local economy, creates a central fund with potential for investment, and provides a vehicle for lower transaction fees meaning cheaper prices for all.
+            It keeps money circulating in the local economy, creates a central fund with potential for community investment, and with lower transaction fees provides cheaper prices for all.
           </p>
         </div>
       }
@@ -65,10 +65,10 @@ const Index = () => (
             Cheaper Transactions
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Credit card transactions and cash-handling are a cost, siphoning fees from the local economy for every transaction.
+            Credit card transactions include fees that are a cost.  Each transaction takes a certain percentage away from the local economy.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            This cost would be significantly reduced with a digital currency.  The fees are retained by local businesses and consumers in the form of lower prices.
+            Instead, Totnes Pound significantly reduces transaction costs.  The fees are retained by local businesses and consumers in the form of lower prices.
           </p>
         </div>
       }
@@ -79,12 +79,12 @@ const Index = () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Increased Local Collaboration</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Totnes Pound fosters Local Collaboration &amp; Community</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            If it's easier and cheaper to transact locally, then local commerce is encouraged.
+            With easier and cheaper local transactions, we can encourage more local commerce that benefits Totnes.
           </p>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Totnes Pounds are accepted and transacted by the local community, creating cheaper local commerce and an incentive to keep more money local.
+            Totnes Pounds can be accepted and transacted by the local community, creating cheaper local commerce and an incentive to keep more money local.
           </p>
         </div>
       }
@@ -106,6 +106,7 @@ const Index = () => (
             <li>investment in classical investment accounts, like stocks &amp; shares, Vanguard etc</li>
             <li>dividend payments back to the community</li>
           </ul>
+          <p className="mt-8 text-xl font-light leading-relaxed">Totnes Pounds are backed by a GBP <a className="underline" href="https://en.wikipedia.org/wiki/Gold_reserve" target="_blank">reserve</a>, and with very careful management, this reserve could itself be invested.</p>
         </div>
       }
       secondarySlot={<img src={feesToFundImage} alt="Logo" />}

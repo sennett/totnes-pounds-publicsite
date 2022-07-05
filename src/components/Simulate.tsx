@@ -16,7 +16,7 @@ export function Simulate() {
     txnPerDay * totnesPoundsTxnFee * txnsUsingTotnesPound * 365;
 
   const annualSavings =
-    amountThatItWouldCostWithoutTotnesPound - amountThatItWouldCostWithTotnesPound;
+    (amountThatItWouldCostWithoutTotnesPound - amountThatItWouldCostWithTotnesPound) * 5;
 
   return (
     <>
@@ -66,8 +66,9 @@ export function Simulate() {
         primaryText={annualSavings.toLocaleString('en-GB', {
           style: 'currency',
           currency: 'GBP',
+          maximumFractionDigits: 0,
         })}
-        secondaryText="Annual savings"
+        secondaryText="Community savings over 5 years"
       />
     </>
   );
