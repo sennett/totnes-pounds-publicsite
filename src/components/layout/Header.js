@@ -4,7 +4,7 @@ import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
 const Header = () => (
-  <header className="sticky top-0 bg-white shadow">
+  <header className="z-10 sticky top-0 bg-white shadow">
     <div className="container flex flex-row justify-between items-center mx-auto py-4 px-8">
       {/* <div className="flex items-center text-2xl"> */}
       <div className="bg-black w-12 mr-3 text-white p-2 items-center text-2xl">
