@@ -66,6 +66,7 @@ export function Simulate() {
         primaryText={annualSavings.toLocaleString('en-GB', {
           style: 'currency',
           currency: 'GBP',
+          minimumFractionDigits: 0,
           maximumFractionDigits: 0,
         })}
         secondaryText="Community savings over 5 years"
